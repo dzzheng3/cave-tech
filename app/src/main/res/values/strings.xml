@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">CaveTechTest</string>
+    <string name="action_person">List Persons</string>
+    <string name="loading">Loading..</string>
+    <string name="error">Error</string>
+    <string name="my_fragment">My Fragment</string>
+    <string name="fragment_with_image">Frag with Img</string>
+    <string name="fragment_with_bus">Frag with Bus</string>
+    <string name="take_off_received">Take-off Signal Received!!!</string>
+    <string name="fragment_with_network">Frag with Net</string>
+    <string name="whoops">Whoops..</string>
+    <string name="please_try_again">Please try again..</string>
+    <string name="network_error">Network Error</string>
+    <string name="connection_difficulty">Connection Difficulty</string>
+    <string name="generic_error_message">Something bad happened</string>
+    <string name="action_users">List Users</string>
+    <string name="step1">1. Create Table</string>
+    <string name="step2">2. Insert Users</string>
+    <string name="step3">3. List Users</string>
+    <string name="step4">4. Delete Table</string>
+    <string name="color_theme">Color Theme</string>
+    <string name="auto_login">Auto Login</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="silent">Silent</string>
+
+    <string-array name="color_theme">
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Red</item>
+        <item>Yellow</item>
+    </string-array>
+</resources>

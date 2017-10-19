@@ -1,0 +1,4 @@
+#Thu Oct 19 17:44:10 CDT 2017
+base.0=/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0
+renamed.0=classes.dex
+file.0=/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex

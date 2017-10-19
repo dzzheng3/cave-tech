@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/dzzheng3/.android/build-cache/e5698440c83648824f42068aafda9c83f077c11a/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/dzzheng3/.android/build-cache/e5698440c83648824f42068aafda9c83f077c11a/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/dzzheng3/.android/build-cache/e5698440c83648824f42068aafda9c83f077c11a/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/dzzheng3/.android/build-cache/e5698440c83648824f42068aafda9c83f077c11a/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/dzzheng3/.android/build-cache/e5698440c83648824f42068aafda9c83f077c11a/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/dzzheng3/.android/build-cache/91ffaf5160b6c9097d7b95d2bc094a3f7425895b/output/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/dzzheng3/.android/build-cache/e5698440c83648824f42068aafda9c83f077c11a/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/dzzheng3/.android/build-cache/e5698440c83648824f42068aafda9c83f077c11a/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/dzzheng3/.android/build-cache/e5698440c83648824f42068aafda9c83f077c11a/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/dzzheng3/.android/build-cache/e5698440c83648824f42068aafda9c83f077c11a/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/dzzheng3/.android/build-cache/e5698440c83648824f42068aafda9c83f077c11a/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
+        "source": "/Users/dzzheng3/.android/build-cache/91ffaf5160b6c9097d7b95d2bc094a3f7425895b/output/res/anim/design_fab_in.xml"
+    },
+    {
+        "merged": "/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/dzzheng3/.android/build-cache/91ffaf5160b6c9097d7b95d2bc094a3f7425895b/output/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
+        "source": "/Users/dzzheng3/.android/build-cache/91ffaf5160b6c9097d7b95d2bc094a3f7425895b/output/res/anim/design_fab_out.xml"
+    }
+]

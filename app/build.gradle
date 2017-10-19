@@ -1,0 +1,67 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.4'
+    }
+}
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+android {
+    compileSdkVersion 23
+    buildToolsVersion '25.0.2'
+
+    defaultConfig {
+        applicationId "com.dji.challenge.takehome"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionName "1.1"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/services/javax.annotation.processing.Processor'
+    }
+
+    // Enable Java 7 features (diamond operator, string switch statements, etc.)
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'com.android.support:design:23.0.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    apt 'com.google.dagger:dagger-compiler:2.0'
+    compile 'com.google.dagger:dagger:2.0'
+    compile 'com.github.bumptech.glide:glide:3.6.1'
+    compile 'com.google.code.gson:gson:2.3'
+    compile 'com.squareup:otto:1.3.6'
+    compile 'com.squareup.retrofit:retrofit:1.6.1'
+    compile 'org.parceler:parceler:0.2.9'
+    compile 'com.netflix.rxjava:rxjava-android:0.20.7'
+    provided 'org.glassfish:javax.annotation:10.0-b28'
+    compile 'com.jakewharton:butterknife:5.1.2'
+    compile 'io.reactivex:rxjava-computation-expressions:0.21.0'
+    compile files('src/main/lib/aws-android-sdk-core-2.6.5.jar')
+    compile files('src/main/lib/aws-android-sdk-ddb-2.6.5.jar')
+    compile files('src/main/lib/aws-android-sdk-ddb-mapper-2.6.5.jar')
+    compile files('src/main/lib/aws-android-sdk-s3-2.6.5.jar')
+}

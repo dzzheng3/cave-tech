@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/dzzheng3/.android/build-cache/e5698440c83648824f42068aafda9c83f077c11a/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/dzzheng3/.android/build-cache/e5698440c83648824f42068aafda9c83f077c11a/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

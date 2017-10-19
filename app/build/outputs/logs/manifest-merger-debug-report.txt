@@ -1,0 +1,96 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:2:1-37:12
+	package
+		ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:3:5-32
+		INJECTED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:7:5-35:19
+MERGED from [com.android.support:design:23.0.1] /Users/dzzheng3/.android/build-cache/91ffaf5160b6c9097d7b95d2bc094a3f7425895b/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/dzzheng3/.android/build-cache/e5698440c83648824f42068aafda9c83f077c11a/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/dzzheng3/.android/build-cache/e68632b09a4bf2b737e380ced7a677d76d52a283/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/dzzheng3/.android/build-cache/fc8798d895d6136147bce9055e449a67b97dec61/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:11:9-41
+	android:supportsRtl
+		ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:12:9-35
+	android:allowBackup
+		ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:9:9-35
+	android:icon
+		ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:10:9-43
+	android:theme
+		ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:13:9-40
+	android:name
+		ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:8:9-73
+activity#cavetech.com.challenge.takehome.activities.MainActivity
+ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:14:9-24:20
+	android:screenOrientation
+		ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:17:13-49
+	android:label
+		ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:16:13-45
+	android:theme
+		ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:18:13-56
+	android:name
+		ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:15:13-83
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:22:27-74
+activity#cavetech.com.challenge.takehome.activities.AddUserActivity
+ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:25:9-26:99
+	android:parentActivityName
+		ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:26:13-97
+	android:name
+		ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:25:19-92
+activity#cavetech.com.challenge.takehome.activities.AddPersonActivity
+ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:27:9-28:109
+	android:parentActivityName
+		ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:28:13-97
+	android:name
+		ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:27:19-94
+activity#cavetech.com.challenge.takehome.aws.UserActivity
+ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:29:9-30:75
+	android:configChanges
+		ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:30:13-63
+	android:name
+		ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:29:19-82
+activity#cavetech.com.challenge.takehome.aws.UserListActivity
+ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:31:9-32:75
+	android:configChanges
+		ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:31:19-86
+activity#cavetech.com.challenge.takehome.aws.UserDemoActivity
+ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:33:9-34:75
+	android:configChanges
+		ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:34:13-63
+	android:name
+		ADDED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml:33:19-86
+uses-sdk
+INJECTED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:23.0.1] /Users/dzzheng3/.android/build-cache/91ffaf5160b6c9097d7b95d2bc094a3f7425895b/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/dzzheng3/.android/build-cache/e5698440c83648824f42068aafda9c83f077c11a/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /Users/dzzheng3/.android/build-cache/e68632b09a4bf2b737e380ced7a677d76d52a283/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/dzzheng3/.android/build-cache/fc8798d895d6136147bce9055e449a67b97dec61/output/AndroidManifest.xml:5:5-7:41
+	android:targetSdkVersion
+		INJECTED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dzzheng3/Desktop/test/naiqing-zheng/app/src/main/AndroidManifest.xml

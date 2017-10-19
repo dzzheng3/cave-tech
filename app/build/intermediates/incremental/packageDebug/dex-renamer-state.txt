@@ -1,0 +1,7 @@
+#Thu Oct 19 18:15:51 CDT 2017
+base.0=/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_ebcd2756d3122ed393544cc1885b433e3c3010e8
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1df68d045a1bfc9f0c1bbd38f1cf1fe27095e50d/classes.dex
+base.1=/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1df68d045a1bfc9f0c1bbd38f1cf1fe27095e50d
+file.0=/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_ebcd2756d3122ed393544cc1885b433e3c3010e8/classes.dex
