@@ -7,23 +7,28 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
-
-import butterknife.ButterKnife;
+import android.widget.ProgressBar;
 
 import com.dji.challenge.R;
-
-import cavetech.com.challenge.takehome.adapters.UserListAdapter;
-import cavetech.com.challenge.takehome.aws.UserDynamoDBManager;
-import cavetech.com.challenge.takehome.lib.BaseFragment;
 
 import java.util.ArrayList;
 
 import javax.inject.Inject;
 
+import butterknife.ButterKnife;
+import butterknife.InjectView;
+import cavetech.com.challenge.takehome.adapters.UserListAdapter;
+import cavetech.com.challenge.takehome.aws.UserDynamoDBManager;
+import cavetech.com.challenge.takehome.lib.BaseFragment;
+
 /**
  * User fragment
  */
 public class UsersListFragment extends BaseFragment {
+    @InjectView(R.id.listOfUsers)
+    ListView listOfUsers;
+    @InjectView(R.id.progressbar_loading_albums)
+    ProgressBar progressbarLoadingAlbums;
     private ArrayList<UserDynamoDBManager.User> items = new ArrayList<>();
     @Inject
     UserListAdapter singleSelectAdapter;
@@ -34,14 +39,18 @@ public class UsersListFragment extends BaseFragment {
         View view = inflater.inflate(R.layout.fragment_with_list, container, false);
         ButterKnife.inject(this, view);
         new GetUserListTask().execute();
-        ListView listView = (ListView) view.findViewById(R.id.listOfUsers);
         singleSelectAdapter = new UserListAdapter(items);
-        listView.setAdapter(singleSelectAdapter);
+        listOfUsers.setAdapter(singleSelectAdapter);
         return view;
     }
 
-    private class GetUserListTask extends AsyncTask<Void, Void, Void> {
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        ButterKnife.reset(this);
+    }
 
+    private class GetUserListTask extends AsyncTask<Void, Void, Void> {
 
 
         protected Void doInBackground(Void... inputs) {
@@ -54,7 +63,7 @@ public class UsersListFragment extends BaseFragment {
 
         protected void onPostExecute(Void result) {
             singleSelectAdapter.add(items);
-
+            progressbarLoadingAlbums.setVisibility(View.GONE);
         }
     }
 

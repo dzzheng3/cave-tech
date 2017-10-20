@@ -111,6 +111,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/private/var/folders/_x/8nyv_0ws47xbw7v09pvc85p00000gn/T/AppTranslocation/560AA1BE-0987-4943-AF85-0BEFC5F2CBA1/d/Android Studio 3.0 Preview.app/Contents/gradle/m2repository/com/google/code/gson/gson/2.3/gson-2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.3_1c143e19e378e3a1288f290ecfd96aefc2d26576/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/dzzheng3/.gradle/caches/modules-2/files-2.1/org.androidtransfuse/transfuse-core/0.2.10/faa97baaa6e50dafccc390f317fb20845503566f/transfuse-core-0.2.10.jar"
         jumboMode="true"
         optimize="true"
@@ -135,15 +144,6 @@
         revision="25.0.2"
         sha1="de4613ba9951c5cdf952d8d882f1cef2b1bc060f">
         <dex dex="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/transforms/dex/debug/folders/1000/2/aws-android-sdk-ddb-2.6.5_4521eddb07b486523fedadf79881321261d771f5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/private/var/folders/_x/8nyv_0ws47xbw7v09pvc85p00000gn/T/AppTranslocation/DB72B6AF-9BA9-41B8-AE78-1587718B8DBF/d/Android Studio 3.0 Preview.app/Contents/gradle/m2repository/com/google/code/gson/gson/2.3/gson-2.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
-        <dex dex="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.3_528236bebad2fc963907b06e5c5908444fcc7feb/classes.dex" />
     </item>
     <item
         is-multidex="true"

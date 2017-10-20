@@ -2,13 +2,13 @@
 <instant-run
     abi="x86_64,x86"
     api-level="23"
-    build-mode="HOT_WARM"
+    build-mode="COLD"
     density="420dpi"
     format="10"
     plugin-version="2.3.2"
-    timestamp="1508455762667"
+    timestamp="1508508689933"
     token="-8103633615555532746"
-    verifier="COMPATIBLE" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
@@ -23,58 +23,13 @@
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-        type="RESOURCES" />
-
     <build
         build-mode="FULL"
-        timestamp="1508447312320"
+        timestamp="1508508512868"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
-        <artifact
-            location="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
         <artifact
             location="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1508453031040"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
         <artifact
             location="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
@@ -82,27 +37,25 @@
             location="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
+            location="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
             location="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1508454928033"
-        verifier="R_CLASS_CHANGE" >
         <artifact
             location="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
             location="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
             location="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
@@ -112,12 +65,8 @@
             type="SPLIT_MAIN" />
     </build>
     <build
-        build-mode="HOT_WARM"
-        timestamp="1508455762667"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
-    </build>
+        build-mode="COLD"
+        timestamp="1508508689933"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

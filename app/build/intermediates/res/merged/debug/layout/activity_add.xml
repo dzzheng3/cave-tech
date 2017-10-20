@@ -63,7 +63,6 @@
         android:layout_margin="16dp"
         android:src="@android:drawable/ic_delete"
         app:borderWidth="2dp"
-        android:scaleType="fitXY"
         app:fabSize="normal"
         app:rippleColor="#ff0000" />
 

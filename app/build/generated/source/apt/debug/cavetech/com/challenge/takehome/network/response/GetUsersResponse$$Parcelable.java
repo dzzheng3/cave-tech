@@ -9,7 +9,7 @@ import org.parceler.Generated;
 import org.parceler.ParcelWrapper;
 import org.parceler.Parcels;
 
-@Generated(value = "org.parceler.ParcelAnnotationProcessor", date = "2017-10-19T18:15-0500")
+@Generated(value = "org.parceler.ParcelAnnotationProcessor", date = "2017-10-20T09:08-0500")
 public class GetUsersResponse$$Parcelable
     implements Parcelable, ParcelWrapper<cavetech.com.challenge.takehome.network.response.GetUsersResponse>
 {

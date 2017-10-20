@@ -20,12 +20,12 @@
         "source": "/Users/dzzheng3/.android/build-cache/e5698440c83648824f42068aafda9c83f077c11a/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
-        "source": "/Users/dzzheng3/.android/build-cache/e5698440c83648824f42068aafda9c83f077c11a/output/res/layout/notification_media_cancel_action.xml"
-    },
-    {
         "merged": "/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
         "source": "/Users/dzzheng3/.android/build-cache/e5698440c83648824f42068aafda9c83f077c11a/output/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/Users/dzzheng3/.android/build-cache/e5698440c83648824f42068aafda9c83f077c11a/output/res/layout/notification_media_cancel_action.xml"
     },
     {
         "merged": "/Users/dzzheng3/Desktop/test/naiqing-zheng/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
